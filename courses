@@ -1,0 +1,1 @@
+db.courses.insertMany([{name:'Web Development',image:'web-devlop.jpg',price:'8500'},{name:'Data Science',image:'data-science.jpg',price:'12500'},{name:'Mobile App Development',image:'mobile-dev.png',price:'17000'},{name:'Java',image:'java.jpg',price:'8000'},{name:'Programming & Algo',image:'algo.png',price:'12500'},{name:'Graphic Designing',image:'graphics.jpg',price:'12000'}])
