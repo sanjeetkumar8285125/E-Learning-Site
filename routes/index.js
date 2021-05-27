@@ -122,7 +122,7 @@ const CLIENT_URL='http://'+req.headers.host;
   placedOrder.save().then((r)=>{
   const output = 
   `<h2 style="color:#eb690c;">Hello ${req.user.name}, </h2>
-  <p style="text-align:justify">Thank you for your order. We’ll send a confirmation when your order ships. Your estimated delivery date is indicated below. If you would like to view the status of your order or make any changes to it, please visit Your Orders on <span style="color:#c24d0a"><a href="${CLIENT_URL}/customers/orders"> E-Learning.in</a></span></p>
+  <p style="text-align:justify">Thank you for your order. We’ll send a confirmation when your order ships. Your estimated delivery date is indicated below. If you would like to view the status of your order or make any changes to it, please visit Your Orders on <span style="color:#c24d0a"><a href="${CLIENT_URL}/customers/orders"> E-Learning </a></span></p>
   <hr>
   <h3>Order Details: -</h3>
   ${renderItems(req.session.cart.items)}
@@ -141,7 +141,7 @@ const CLIENT_URL='http://'+req.headers.host;
   </tr>
   <tr>
   <td>POD Convenience Fee:</td>
-  <td>	Rs.0.00</td>
+  <td>Rs 0.00</td>
   </tr>
   <tr>
   <td>Shipment Total:</td>
@@ -165,7 +165,7 @@ const CLIENT_URL='http://'+req.headers.host;
   
   const mailOptions = {
    from: `"E-Learning" <${req.user.email}>`, // sender address
-   to: `${req.user.email},rohitkumar9868088@gmail.com`, // list of receivers
+   to: `${req.user.email},sanjeetkumar8285125@gmail.com`, // list of receivers
    subject: "E-Learning Your Order is placed Successfully", // Subject line
    generateTextFromHTML: true,
    html: output, // html body
@@ -220,11 +220,11 @@ const CLIENT_URL='http://'+req.headers.host;
   </tr>
   <tr>
   <td>Shipment Total:</td>
-  <td>${req.session.cart.totalPrice +100 }	</td>
+  <td>Rs ${req.session.cart.totalPrice +100 }	</td>
   </tr>
   <tr>
   <td>Paid Cash on Delivery:</td>
-  <td>${req.session.cart.totalPrice +100 }	</td>
+  <td>Rs ${req.session.cart.totalPrice +100 }	</td>
   </tr>
   </table>
   <br>
@@ -242,7 +242,7 @@ const CLIENT_URL='http://'+req.headers.host;
   // send mail with defined transport object
   const mailOptions = {
    from: `"E-Learning" <${req.user.email}>`, // sender address
-   to: `${req.user.email},rohitkumar9868088@gmail.com`, // list of receivers
+   to: `${req.user.email},sanjeetkumar8285125@gmail.com`, // list of receivers
    subject: "E-Learning Your Order is placed Successfully", // Subject line
    generateTextFromHTML: true,
    html: output, // html body
