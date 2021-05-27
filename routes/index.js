@@ -7,14 +7,17 @@ const OAuth2 = google.auth.OAuth2;
 const coursesModel=require('../models/Schema/coursesSchema')
 const booksModel=require('../models/Schema/BooksSchema')
 const orderModel=require('../models/Schema/orderSchema');
+const notesModel=require('../models/Schema/notesSchema');
 const auth=require('../middleware/auth');
 const stripe=require('stripe')('sk_test_51Isr7mSGYjYnomPVVm9owzZDTMe39XeEx3fPE3Ocf3BoapdsOyHfUERbYe5scMBb41bKSyJp2liKzYODfiiYMkRg00dvyRwg9o')
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index');
 });
-router.get('/notes', function(req, res, next) {
-  res.render('notes');
+router.get('/notes', async function(req, res, next) {
+  const notes=await notesModel.find();
+//console.log(notes)
+  res.render('notes',{notes:notes});
 });
 router.get('/books', function(req, res, next) {
   res.render('books');
@@ -349,8 +352,6 @@ router.get('/Graphics-Designing',async (req, res, next) =>{
 });
 
 
-
-
 //Books route
 router.get('/Operating%20Systems%20-%20A%20Concept%20-%20Based%20Approach%20First%20Edition', async(req, res, next) =>{
   const data= await booksModel.find();
@@ -493,13 +494,21 @@ router.get('/about',(req,res,next)=>{
 ///Search functionality
 router.post('/search',(req,res,next)=>{
 var name=req.body.name;
-console.log(req.body.name);
 booksModel.find({name:{$regex:name,$options:'i'}}).then((data)=>{
 res.render('searchData',{data:data})
 }).catch((err)=>{
   console.log(err)
 })
 })
+
+router.post('/notes',(req,res,next)=>{
+  var name=req.body.name;
+  notesModel.find({name:{$regex:name,$options:'i'}}).then((data)=>{
+  res.render('notes',{notes:data})
+  }).catch((err)=>{
+    console.log(err)
+  })
+  })
 
 router.get('*',(req,res,next)=>{
  res.status(404).render('error')

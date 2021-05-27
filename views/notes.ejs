@@ -75,7 +75,7 @@
                 </ul>
 
             </div>
-            <form class="d-flex" method="POST" action="/search">
+            <form class="d-flex" method="POST" action="/notes">
                 <input class="form-control me-2" type="search" name="name" placeholder="Search" aria-label="Search">
                 <button class="btn btn-sm btn-primary" type="submit">Search</button>
             </form>
@@ -100,83 +100,17 @@
     <div class="container-fluid notes">
         <div class="container">
             <div class="row text-center">
-               
-                <div class="column3 soft-eng">
+               <% notes.forEach(function(note){ %>
+                <div class="column3 <%=note.classname %>">
                     <h3>
-                        <a href="pdf/Software-Engineering-By-K-K-Aggarwal-Full-Notes-1.pdf" target="_blank">Software Engineering</a>
+                        <a href="/pdf/<%= note.pdflink %>" target="_blank"><%=note.name %></a>
                     </h3>
                 </div>
-
-                <div class="column3 computer-network">
-                    <h3>
-                        <a href="pdf/Computer-Networks---A-Tanenbaum---5th-edition.pdf" target="_blank">Computer Networks</a>
-
-                    </h3>
-                </div>
-
-                <div class="column3 soft-testing">
-                    <h3>
-                        <a href="pdf/Book1_The Art of Software Testing.pdf" target="_blank">Software Testing</a>
-                    </h3>
-                </div>
-
-                <div class="column3 linux-kernal">
-                    <h3>
-                        <a href="pdf/Linux Kernel Development, 3rd Edition.pdf" target="_blank">Linux & Kernal</a>
-                    </h3>
-                </div>
-
-                <div class="column3 mb-computing">
-                    <h3>
-                        <a href="pdf/Mobile-Computing-by-JOCHEN-SCHILLER book marked.pdf" target="_blank">Mobile Computing</a>
-                    </h3>
-                </div>
-
-                <div class="column3 com-architec">
-                    <h3>
-                        <a href="pdf/Computer System Architecture-Morris Mano third edition ( PDFDrive ).pdf" target="_blank">Computer Architecture</a>
-                    </h3>
-                </div>
-
-                <div class="column3 python-lang">
-                    <h3>
-                        <a href="pdf/python-language.pdf" target="_blank">Python</a>
-                    </h3>
-                </div>
-
-                <div class="column3 computer-networking">
-                    <h3>
-                        <a href="pdf/Computer Networking (1).pdf" target="_blank">Computer Networking</a>
-                    </h3>
-                </div>
-
-                <div class="column3 software-eng">
-                    <h3>
-                        <a href="pdf/Download S_W Engineering Tutorial (PDF Version) - Tutorialspoint ( PDFDrive.com ).pdf" target="_blank">Software Engineering</a>
-                    </h3>
-                </div>
-
-                <div class="column3 reason">
-                    <h3>
-                        <a href="pdf/Reasoning Bank kundan- By www.LearnEngineering.in.pdf" target="_blank">Reasoning </a>
-                    </h3>
-                </div>
-
-                <div class="column3 quantit">
-                    <h3>
-                        <a href="pdf/Quantitative Aptitude By N.K.Singh- By www.LearnEngineering.in.pdf" target="_blank">Quantitative Apptitude</a>
-                    </h3>
-                </div>
-
-                <div class="column3 maths">
-                    <h3>
-                        <a href="pdf/Maths 7300 Book PDF-4.pdf" target="_blank">Maths</a>
-                    </h3>
-                </div>
+           <% }) %>
 
             </div>
         </div>
-    </div>
+    </div> 
 
    
 
