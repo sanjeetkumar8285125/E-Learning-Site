@@ -145,11 +145,11 @@ const CLIENT_URL='http://'+req.headers.host;
   </tr>
   <tr>
   <td>Shipment Total:</td>
-  <td>${req.session.cart.totalPrice +100 }	</td>
+  <td>Rs ${req.session.cart.totalPrice +100 }	</td>
   </tr>
   <tr>
   <td>Paid By Card:</td>
-  <td>${req.session.cart.totalPrice +100 }	</td>
+  <td>Rs ${req.session.cart.totalPrice +100 }	</td>
   </tr>
   </table>
   <br>
@@ -165,7 +165,7 @@ const CLIENT_URL='http://'+req.headers.host;
   
   const mailOptions = {
    from: `"E-Learning" <${req.user.email}>`, // sender address
-   to: `${req.user.email}`, // list of receivers
+   to: `${req.user.email},rohitkumar9868088@gmail.com`, // list of receivers
    subject: "E-Learning Your Order is placed Successfully", // Subject line
    generateTextFromHTML: true,
    html: output, // html body
@@ -242,7 +242,7 @@ const CLIENT_URL='http://'+req.headers.host;
   // send mail with defined transport object
   const mailOptions = {
    from: `"E-Learning" <${req.user.email}>`, // sender address
-   to: `${req.user.email}`, // list of receivers
+   to: `${req.user.email},rohitkumar9868088@gmail.com`, // list of receivers
    subject: "E-Learning Your Order is placed Successfully", // Subject line
    generateTextFromHTML: true,
    html: output, // html body
