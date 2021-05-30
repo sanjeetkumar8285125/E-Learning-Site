@@ -492,8 +492,8 @@ router.get('/about',(req,res,next)=>{
 
 
 ///Search functionality
-router.post('/search',(req,res,next)=>{
-var name=req.body.name;
+router.get('/search',(req,res,next)=>{
+var name=req.query.name;
 booksModel.find({name:{$regex:name,$options:'i'}}).then((data)=>{
 res.render('searchData',{data:data})
 }).catch((err)=>{
@@ -501,8 +501,8 @@ res.render('searchData',{data:data})
 })
 })
 
-router.post('/notes',(req,res,next)=>{
-  var name=req.body.name;
+router.get('/notes',(req,res,next)=>{
+  var name=req.query.name;
   notesModel.find({name:{$regex:name,$options:'i'}}).then((data)=>{
   res.render('notes',{notes:data})
   }).catch((err)=>{
