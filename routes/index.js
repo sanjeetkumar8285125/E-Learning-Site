@@ -501,8 +501,8 @@ res.render('searchData',{data:data})
 })
 })
 
-router.get('/notes',(req,res,next)=>{
-  var name=req.query.name;
+router.post('/notes',(req,res,next)=>{
+  var name=req.body.notes;
   notesModel.find({name:{$regex:name,$options:'i'}}).then((data)=>{
   res.render('notes',{notes:data})
   }).catch((err)=>{
