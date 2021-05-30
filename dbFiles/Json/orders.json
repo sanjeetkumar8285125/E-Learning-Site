@@ -1,0 +1,1006 @@
+[{
+  "_id": {
+    "$oid": "60a7b2d1d78a2437f877af94"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 2
+    },
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 2
+    }
+  },
+  "phone": "08470075063",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-21T13:17:05.035Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:17:05.035Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b30bd78a2437f877af95"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 2
+    }
+  },
+  "phone": "08470075063",
+  "address": "B-21 Gali No-3 Singh Enclave Prem Nagar-3, Kirari Suleman Nagar",
+  "createdAt": {
+    "$date": "2021-05-21T13:18:03.356Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:18:03.356Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b363d78a2437f877af96"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 2
+    }
+  },
+  "phone": "08470075063",
+  "address": "B-21 Gali No-3 Singh Enclave Prem Nagar-3, Kirari Suleman Nagar",
+  "createdAt": {
+    "$date": "2021-05-21T13:19:31.707Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:19:34.090Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b479d78a2437f877af97"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 2
+    }
+  },
+  "phone": "08470075063",
+  "address": " Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-21T13:24:09.626Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:24:09.626Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b7cd15346916bcbf0beb"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "9953835377",
+  "address": " Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-21T13:38:21.679Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:38:21.679Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b848023a6e1318a08482"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8882275779",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-21T13:40:24.792Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:40:24.792Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b94c741550170c84138a"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef92a2": {
+      "item": {
+        "_id": "6097755082f6de60bfef92a2",
+        "name": "Programming in C Paperback – 25 February 2016",
+        "image": "Programming in C.jpg",
+        "price": 430
+      },
+      "qty": 1
+    }
+  },
+  "phone": "9953835377",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-21T13:44:44.158Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:44:44.158Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60a7b9e153e6a43478f08a35"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 1
+    }
+  },
+  "phone": "+91- 8470075063",
+  "address": " Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-21T13:47:13.480Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-21T13:47:13.480Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abc1919bd5f81dfc4758c2"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 2
+    },
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8470075063",
+  "address": "nangloi",
+  "createdAt": {
+    "$date": "2021-05-24T15:09:05.346Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:09:05.346Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abc3152fe2132f8062c00e"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 2
+    },
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8882275779",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-24T15:15:33.638Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:15:33.638Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abc3a9705def351c4f4a7a"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 2
+    },
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "nangloi",
+  "createdAt": {
+    "$date": "2021-05-24T15:18:01.489Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:18:01.489Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abc736fe912a25e0080614"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929e": {
+      "item": {
+        "_id": "6097755082f6de60bfef929e",
+        "name": "Data Structures and Algorithms Made Easy",
+        "image": "data-stuucture.jpg",
+        "price": 529
+      },
+      "qty": 2
+    }
+  },
+  "phone": "08470075063",
+  "address": "Rajdhani Park",
+  "createdAt": {
+    "$date": "2021-05-24T15:33:10.940Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:33:14.453Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abc97e10ac7e18c8142363"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929b": {
+      "item": {
+        "_id": "6097755082f6de60bfef929b",
+        "name": "Operating Systems - A Concept - Based Approach First Edition",
+        "image": "operating-system.jpg",
+        "price": 405
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Rajdhani Park",
+  "createdAt": {
+    "$date": "2021-05-24T15:42:54.884Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:42:58.564Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abccb78a36800a6827ba3d"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T15:56:39.674Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T15:56:43.278Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abd65bb255db241c0fbc7e"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 1
+    }
+  },
+  "phone": "9953835377",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-24T16:37:47.852Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:37:47.852Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abd718a8b2ea0f949a394a"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T16:40:56.254Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:40:56.254Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abd799f4951318302421a6"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929c": {
+      "item": {
+        "_id": "6097755082f6de60bfef929c",
+        "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+        "image": "networking.jpg",
+        "price": 642
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T16:43:05.377Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:43:07.645Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abd9706f792f19f815dae5"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8882275779",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-24T16:50:56.281Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:50:56.281Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abda6704627329888ecc0d"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T16:55:03.593Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:55:03.593Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abdb04e1915001c8f912cc"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T16:57:40.740Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:57:40.740Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abdb210e7ab60350f11bce"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "9953835377",
+  "address": " Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T16:58:09.236Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:58:09.236Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abdb4360b0313a00b56598"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8470075063",
+  "address": "nangloi",
+  "createdAt": {
+    "$date": "2021-05-24T16:58:43.885Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T16:58:43.885Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abdcdf60b0313a00b56599"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    },
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": " Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T17:05:35.527Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T17:05:40.012Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abde3652221d254c3bffcb"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8882275779",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T17:11:18.543Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T17:11:18.543Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abe22365b500287829d9e6"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929e": {
+      "item": {
+        "_id": "6097755082f6de60bfef929e",
+        "name": "Data Structures and Algorithms Made Easy",
+        "image": "data-stuucture.jpg",
+        "price": 529
+      },
+      "qty": 2
+    },
+    "6097755082f6de60bfef92a4": {
+      "item": {
+        "_id": "6097755082f6de60bfef92a4",
+        "name": "Compilers: Principles Techniques and Tool",
+        "image": "Compiler.jpg",
+        "price": 709
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Rajdhani Park",
+  "createdAt": {
+    "$date": "2021-05-24T17:28:03.429Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T17:28:03.429Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abe35d4d8b1b11886fd0cd"
+  },
+  "paymentType": "card",
+  "paymentStatus": true,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929f": {
+      "item": {
+        "_id": "6097755082f6de60bfef929f",
+        "name": "Fundamentals of Software Engineering Paperback",
+        "image": "software-engineering.jpg",
+        "price": 278
+      },
+      "qty": 1
+    }
+  },
+  "phone": "08470075063",
+  "address": "Rajdhani Park",
+  "createdAt": {
+    "$date": "2021-05-24T17:33:17.415Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T17:33:20.178Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abe6af988380283c3d3839"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929e": {
+      "item": {
+        "_id": "6097755082f6de60bfef929e",
+        "name": "Data Structures and Algorithms Made Easy",
+        "image": "data-stuucture.jpg",
+        "price": 529
+      },
+      "qty": 1
+    }
+  },
+  "phone": "9953835377",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T17:47:27.801Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T17:47:27.801Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abea37716ed0111cfb2720"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929d": {
+      "item": {
+        "_id": "6097755082f6de60bfef929d",
+        "name": "Python: The Complete Reference Paperback",
+        "image": "pyhton-1.jpg",
+        "price": 620
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8470075063",
+  "address": "prem",
+  "createdAt": {
+    "$date": "2021-05-24T18:02:31.743Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T18:02:31.743Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60abeaf1a130d22170ca0aff"
+  },
+  "paymentType": "COD",
+  "paymentStatus": false,
+  "status": "order_placed",
+  "customerid": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "items": {
+    "6097755082f6de60bfef929e": {
+      "item": {
+        "_id": "6097755082f6de60bfef929e",
+        "name": "Data Structures and Algorithms Made Easy",
+        "image": "data-stuucture.jpg",
+        "price": 529
+      },
+      "qty": 1
+    }
+  },
+  "phone": "8882275779",
+  "address": "Prem nagar-3 Kirari suleman nagar  ",
+  "createdAt": {
+    "$date": "2021-05-24T18:05:37.482Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-24T18:05:37.482Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,106 @@
+[{
+  "_id": {
+    "$oid": "6097755082f6de60bfef929b"
+  },
+  "name": "Operating Systems - A Concept - Based Approach First Edition",
+  "image": "operating-system.jpg",
+  "price": "405"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef929c"
+  },
+  "name": "Computer Networks | Fifth Edition | By Pearson 5th Edition",
+  "image": "networking.jpg",
+  "price": "642"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef929d"
+  },
+  "name": "Python: The Complete Reference Paperback",
+  "image": "pyhton-1.jpg",
+  "price": "620"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef929e"
+  },
+  "name": "Data Structures and Algorithms Made Easy",
+  "image": "data-stuucture.jpg",
+  "price": "529"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef929f"
+  },
+  "name": "Fundamentals of Software Engineering Paperback",
+  "image": "software-engineering.jpg",
+  "price": "278"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a0"
+  },
+  "name": "Object-Oriented Programming with C++",
+  "image": "c++.jpg",
+  "price": "540"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a1"
+  },
+  "name": "HTML 5 Black Book",
+  "image": "html.jpg",
+  "price": "727.00"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a2"
+  },
+  "name": "Programming in C Paperback – 25 February 2016",
+  "image": "Programming in C.jpg",
+  "price": "430"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a3"
+  },
+  "name": "Beginning Node.js, Express & MongoDB Development",
+  "image": "nodejs.jpg",
+  "price": "860"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a4"
+  },
+  "name": "Compilers: Principles Techniques and Tool",
+  "image": "Compiler.jpg",
+  "price": "709"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a5"
+  },
+  "name": "Beginning C++ Through Game Programming Paperback",
+  "image": "Beginning Cpp Through Game Programming Paperback.jpg",
+  "price": "1364"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a6"
+  },
+  "name": "programming and cybersecurity",
+  "image": "cyber.jpg",
+  "price": "1267"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a7"
+  },
+  "name": "Pro ASP.NET 4 CMS",
+  "image": "asp.jpg",
+  "price": "2999"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a8"
+  },
+  "name": "Unix Shell Programming Paperback",
+  "image": "unix.jpg",
+  "price": "390"
+},{
+  "_id": {
+    "$oid": "6097755082f6de60bfef92a9"
+  },
+  "name": "Pragmatic Machine Learning with Python",
+  "image": "machine.jpg",
+  "price": "433"
+}]

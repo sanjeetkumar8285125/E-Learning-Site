@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="/books">Books</a>
+                        <a class="nav-link " href="/books">Books</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/courses">Courses</a>
@@ -67,7 +67,7 @@
                    </li>
                    <% } else {%>
                    <li class="nav-item">
-                     <a class="nav-link" href="/login">Login</a>
+                     <a class="nav-link active" href="/login">Login</a>
                    </li>
                    <% } %>
                     <li class="nav-item">
@@ -94,14 +94,14 @@
                     <%- include('messages') %>
                     <form method="POST" action="/forgot">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">User name</label>
+                            <label for="exampleInputEmail1" class="form-label"><b>Email ID</b></label>
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" value="<%= typeof email !='undefined' ? email:'' %>">
                         </div>
                         <button type="submit" class="btn btn-primary loginsub">Submit</button>
                     </form>
 
-                    <p class="regtxt"> <a href="/login">Login</a> </p>
+                    <p class="regtxt "> <a href="/login">Login</a> </p>
 
                     <p class="regtxt register-lg"> <a href="/register"> Register</a> </p>
                     

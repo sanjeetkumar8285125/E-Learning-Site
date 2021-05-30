@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a3186605f"
+  },
+  "name": "Web Development",
+  "image": "web-devlop.jpg",
+  "price": "8500"
+},{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a31866060"
+  },
+  "name": "Data Science",
+  "image": "data-science.jpg",
+  "price": "12500"
+},{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a31866061"
+  },
+  "name": "Mobile App Development",
+  "image": "mobile-dev.png",
+  "price": "17000"
+},{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a31866062"
+  },
+  "name": "Java",
+  "image": "java.jpg",
+  "price": "8000"
+},{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a31866063"
+  },
+  "name": "Programming & Algo",
+  "image": "algo.png",
+  "price": "12500"
+},{
+  "_id": {
+    "$oid": "6092b3a6fa8dbb7a31866064"
+  },
+  "name": "Graphic Designing",
+  "image": "graphics.jpg",
+  "price": "12000"
+}]

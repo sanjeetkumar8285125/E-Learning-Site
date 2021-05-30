@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166928"
+  },
+  "classname": "soft-eng",
+  "name": "Software Engineering",
+  "pdflink": "Software-Engineering-By-K-K-Aggarwal-Full-Notes-1.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166929"
+  },
+  "classname": "computer-network",
+  "name": "Computer Networks",
+  "pdflink": "Computer-Networks---A-Tanenbaum---5th-edition.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692a"
+  },
+  "classname": "soft-testing",
+  "name": "Software Testing",
+  "pdflink": "Book1_The Art of Software Testing.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692b"
+  },
+  "classname": "linux-kernal",
+  "name": "Linux & Kernal",
+  "pdflink": "Linux Kernel Development, 3rd Edition.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692c"
+  },
+  "classname": "mb-computing",
+  "name": "Mobile Computing",
+  "pdflink": "Mobile-Computing-by-JOCHEN-SCHILLER book marked.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692d"
+  },
+  "classname": "com-architec",
+  "name": "Computer Architecture",
+  "pdflink": "Computer System Architecture-Morris Mano third edition PDFDrive.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692e"
+  },
+  "classname": "computer-networking",
+  "name": "Computer Networking",
+  "pdflink": "Computer Networking.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c16692f"
+  },
+  "classname": "python-lang",
+  "name": "Python",
+  "pdflink": "python-language.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166930"
+  },
+  "classname": "software-eng",
+  "name": "Software Engineering",
+  "pdflink": "Download S_W Engineering Tutorial PDF Version- Tutorialspoint.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166931"
+  },
+  "classname": "reason",
+  "name": "Reasoning",
+  "pdflink": "Reasoning Bank kundan- By www.LearnEngineering.in.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166932"
+  },
+  "classname": "quantit",
+  "name": "Quantitative Apptitude",
+  "pdflink": "Quantitative Aptitude By N.K.Singh- By www.LearnEngineering.in.pdf"
+},{
+  "_id": {
+    "$oid": "60afd5d0810c36963c166933"
+  },
+  "classname": "maths",
+  "name": "Maths",
+  "pdflink": "Maths 7300 Book PDF-4.pdf"
+}]

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "608c1023920e75102c1e9620"
+  },
+  "resetLink": "",
+  "name": "sanjeet",
+  "lname": "kumar",
+  "email": "sanjeetkumar8285125@gmail.com",
+  "phone": 918470075063,
+  "password": "$2b$10$kxbI24MD/XbqHUtqjVADq.ez3TiamhwuvistCEp3Ztf44zo42v4FK",
+  "createdAt": {
+    "$date": "2021-04-30T14:11:47.639Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-11T16:33:31.257Z"
+  },
+  "__v": 0,
+  "role": "admin"
+},{
+  "_id": {
+    "$oid": "609a3defaba43102ace30df5"
+  },
+  "resetLink": "",
+  "name": "rohit",
+  "lname": "kumar",
+  "email": "rohitkumar9868088@gmail.com",
+  "phone": 9953835377,
+  "password": "$2b$10$dv7ai9TwsDlqtPL.Nyrz0ukOMvBVRrTrnhbClK/CYksL6ZRF9sV3y",
+  "createdAt": {
+    "$date": "2021-05-11T08:18:55.164Z"
+  },
+  "updatedAt": {
+    "$date": "2021-05-11T08:18:55.164Z"
+  },
+  "__v": 0,
+  "role": "admin"
+}]

@@ -11,12 +11,33 @@ const bcrypt=require('bcrypt');
 const passport=require('passport')
 const guest=require('../middleware/guest');
 
+
+const checkEmail=(req,res,next)=>{
+    var name=req.body.name;
+    var lname=req.body.lname;
+    var phone=req.body.phone;
+    var email=req.body.email;
+    var password=req.body.password;
+    var confpassword=req.body.confpassword;
+    let errors=[]
+    var checkExistUname= userModel.find({email:email})
+    checkExistUname.exec((err,data)=>{
+        if(data){
+            errors.push({msg:"Email is already registerd !"})
+            return res.render('register',{errors:errors,name:name,lname:lname,phone:phone,password:password,confpassword:confpassword})     
+        }
+        next();
+    })
+}
+
+
 router.post('/login',(req,res,next)=>{
     let email=req.body.email;
     let password=req.body.password;
     if(!email || !password){
         req.flash('error_msg',"All Fields required");
         res.redirect('/login');
+      
     }
     else{
     passport.authenticate('local', {
@@ -37,7 +58,7 @@ router.get('/logout',(req,res,next)=>{
 router.get('/register',guest,(req,res,next)=>{
     res.render('register')
 })
-router.post('/register',(req,res,next)=>{
+router.post('/register',checkEmail,(req,res,next)=>{
     var name=req.body.name;
     var lname=req.body.lname;
     var phone=req.body.phone;
