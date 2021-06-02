@@ -98,6 +98,7 @@
     </div>
 
 
+    <%- include('messages') %>
 
     <div class="container over-view">
         <div class="row">
@@ -232,7 +233,24 @@
                 <!-- <a href="#">
                     Enroll Now
                 </a> -->
-                <button data-courses="<%=JSON.stringify(data) %>" class="butttoncart">Enroll Now</button>
+                <!-- <button data-courses="<%=JSON.stringify(data) %>" class="butttoncart">Enroll Now</button> -->
+                <form action="/create-order" method="POST">
+                    <input type="hidden" name="price" value="<%= data.price %>">
+                    <input type="hidden" name="course" value="<%= data.name %>">
+                                    <script
+                                    src="//checkout.stripe.com/v2/checkout.js"
+                                    class="stripe-button"
+                                    data-key="pk_test_51Isr7mSGYjYnomPV0wGMj6FSMzj5jb2z3w4DLOe5mZLpOCyIXIq4XKaO4JR4fcExpCk1XNqe82Q2Jjo61ZrXLviO00eBzOmM3o" 
+                                    data-amount="<%= data.price * 100 %>" 
+                                    data-currency="inr" 
+                                    data-name="Your order" 
+                                    data-description="<%= data.name %> Course" 
+                                    data-image="/images/<%=data.image %>"
+                                    data-locale="auto"
+                                    
+                                    > 
+                                    </script>
+                                  </form>
             </div>
         </div>
     </div>
@@ -419,7 +437,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script  src="/javascripts/paytm.js" type="module"></script>
+    <script  src="/javascripts/toggle.js" type="module"></script>
     <script>
         $(".navbar").ripples({
             resolution: 1000,

@@ -12,13 +12,13 @@
     "connect-flash": "^0.1.1",
     "connect-mongo": "^4.4.1",
     "cookie-parser": "~1.4.4",
-    "crypto": "^1.0.1",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "express-session": "^1.17.1",
     "googleapis": "^73.0.0",
     "http-errors": "~1.6.3",
+    "instamojo-nodejs": "0.0.5",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.29.1",
     "mongoose": "^5.12.6",
@@ -28,6 +28,6 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "stripe": "^8.149.0",
-    "util": "^0.12.3"
+    "util": "^0.12.4"
   }
 }

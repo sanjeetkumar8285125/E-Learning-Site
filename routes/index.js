@@ -326,19 +326,19 @@ cart.totalPrice=cart.totalPrice + req.body.price
 
 
 //courses Route
-router.get('/web-development', async(req, res, next) =>{
+router.get('/Web%20Development', async(req, res, next) =>{
   const data=await coursesModel.find();
   res.render('web-development',{data:data[0]});
 });
-router.get('/data-science', async(req, res, next) =>{
-  const data=await coursesModel.find();
+router.get('/Data%20Science', async (req, res, next) =>{
+  const data= await coursesModel.find();
   res.render('data-science',{data:data[1]});
 });
-router.get('/mobile-app', async(req, res, next) =>{
+router.get('/Mobile%20App%20Development', async(req, res, next) =>{
   const data=await coursesModel.find();
   res.render('mobile-app',{data:data[2]} );
 });
-router.get('/java', async(req, res, next) =>{
+router.get('/Java', async(req, res, next) =>{
   const data=await coursesModel.find();
   res.render('java',{data:data[3]} );
 });
@@ -346,7 +346,7 @@ router.get('/Programming%20&%20Algo',async (req, res, next) =>{
   const data=await coursesModel.find();
   res.render('Programming & Algo',{data:data[4]} );
 });
-router.get('/Graphics-Designing',async (req, res, next) =>{
+router.get('/Graphic%20Designing',async (req, res, next) =>{
   const data=await coursesModel.find();
   res.render('Graphics-Designing',{data:data[5]} );
 });

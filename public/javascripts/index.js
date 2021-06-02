@@ -55,12 +55,6 @@ addtocart.forEach((btn)=>{
 })
 
 
-const alertmsg=document.querySelector('.alert-success')
-if(alertmsg){
-  setTimeout(()=>{
-    alertmsg.remove()
-  },3000)
-}
 
 
 

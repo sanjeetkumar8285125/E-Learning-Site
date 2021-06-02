@@ -43,8 +43,7 @@ app.use(function(req, res, next) {
   res.locals.error = req.flash('error');
   next();
 });
-
-
+app.use('/',require('./routes/Coursepayment'))
 app.use('/',require('./routes/auth'));
 app.use('/',require('./routes/admin'));
 app.use('/',require('./routes/index'))
