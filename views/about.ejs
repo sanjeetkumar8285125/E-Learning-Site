@@ -42,6 +42,7 @@
         margin-right: auto;
   text-align: justify;
   width: 50%;
+    }
     </style>
 </head>
 
@@ -96,7 +97,7 @@
                      <a class="nav-link" href="/login">Login</a>
                    </li>
                    <% } %>
-                    <li class="nav-item">
+                   <li class="nav-item">
                         <a class="nav-link cart" href="/cart"><span id="cartCounter" style="color:gold ;margin-right: 4px;"><%=session.cart ? session.cart.totalQty :'' %></span><i class="fas fa-shopping-cart"></i></a>
                     </li>
                 </ul>
