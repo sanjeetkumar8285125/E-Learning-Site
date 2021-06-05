@@ -20,8 +20,9 @@ const checkEmail=(req,res,next)=>{
     var password=req.body.password;
     var confpassword=req.body.confpassword;
     let errors=[]
-    var checkExistUname= userModel.find({email:email})
+    var checkExistUname= userModel.findOne({email:email})
     checkExistUname.exec((err,data)=>{
+        if(err) throw err;
         if(data){
             errors.push({msg:"Email is already registerd !"})
             return res.render('register',{errors:errors,name:name,lname:lname,phone:phone,password:password,confpassword:confpassword})     
