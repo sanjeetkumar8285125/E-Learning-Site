@@ -6,9 +6,9 @@ const stripe=require('stripe')('sk_test_51Isr7mSGYjYnomPVVm9owzZDTMe39XeEx3fPE3O
 
 router.post('/create-order', (req,res)=>{
     const CLIENT_URL='http://'+req.headers.host;
-    let message= `Dear ${req.user.name} ${req.user.lname} 
-    Thanks for shopping with us. Your ${req.body.course} Course is purchased Successfully. We will get back to you soon when new batches started.
-    Regards E-Learning`
+    let message= `Dear ${req.user.name} ${req.user.lname}
+Thanks for shopping with us. Your ${req.body.course} Course is purchased Successfully. We will get back to you soon when new batches started.
+Regards E-Learning`
     var options = {authorization : 'YwrLif1QmVsKC0MNuIztAXqW3lGvD4Sc6HpO5xjU9heoanb28yxGdq2bOUkQuet4niM5NcrKsSjVaygH' , message : message ,  numbers : [`${req.user.phone}`]} 
  
   const token=req.body.stripeToken;
